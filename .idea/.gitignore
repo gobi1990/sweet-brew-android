@@ -1,0 +1,69 @@
+# Android build outputs
+/build
+/app/build
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Gradle files
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local configuration files
+local.properties
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Dependency directories
+/external
+/libs
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Generated files
+/captures
+/output
+/gen
+/bin
+/out
+
+# Proguard/R8 files
+proguard-rules.pro
+*.pro
+
+# Android Studio navigation files
+.navigation/
+
+# Keystore files
+*.jks
+*.keystore
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Miscellaneous
+*.class
+*.dex
+*.jar
+*.war
+*.ear
+*.hprof
